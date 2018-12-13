@@ -1,47 +1,38 @@
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: $font-written;
-  color: inherit;
+	font-family: $font-written;
+	color: inherit;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: normal;
 }
 
 h1 {
-  font-weight: normal;
-  font-size: calc(#{grid(1.5)} + 2rem);
-}
-h2 {
-  font-weight: normal;
-  font-size: calc(#{grid(1.25)} + 1rem);
-  line-height: 0.75;
-}
-h3,
-h4 {
-  width: 100%;
-  display: block;
-}
-p,
-blockquote {
-  font-size: 1.2rem;
-  font-family: sans-serif;
-  & + p {
-    font-size: 1rem;
-  }
+	font-weight: normal;
+	font-size: grid(1);
+	line-height: 1;
+	@include min-(font-size, 1, 100);
+	@include max-(font-size, 1, 32);
 }
 
-blockquote {
-  font-size: 1rem;
-  padding: 1rem;
-  background-color: color(White, 0.5);
-  width: auto;
-  margin: auto;
-  display: block;
-	border-radius: 2rem;
-	border: 2px solid color(Dark);
-  a {
-    text-decoration: none;
-    font-weight: bold;
-  }
+h2 {
+	font-weight: normal;
+	font-size: grid(0.75);
+	line-height: 1;
+	@include min-(font-size, 0.75, 80);
+	@include max-(font-size, 0.75, 24);
+}
+
+h3 {
+	font-weight: normal;
+	font-size: grid(0.6);
+	line-height: 1;
+	@include min-(font-size, 0.6, 64);
+	@include max-(font-size, 0.6, 18);
 }
