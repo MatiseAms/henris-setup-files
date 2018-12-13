@@ -1,5 +1,5 @@
 
-URL="https://gist.githubusercontent.com/silvandiepen/f103e4c729d04300d67eba1cf431d67d/raw"
+URL="https://raw.githubusercontent.com/MatiseAms/henris-setup-files/master"
 
 curl -o app.scss -l ${URL}/app.scss 
 printf 'App.scss created' 
