@@ -1,0 +1,25 @@
+{
+  "name": "henris-setup-files",
+  "version": "1.0.0",
+  "description": "Create Henris files",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiseAms/henris-setup-files.git"
+  },
+  "keywords": [
+    "henris",
+    "scss",
+    "setup",
+    "files"
+  ],
+  "author": "Sil van Diepen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiseAms/henris-setup-files/issues"
+  },
+  "homepage": "https://github.com/MatiseAms/henris-setup-files#readme"
+}
