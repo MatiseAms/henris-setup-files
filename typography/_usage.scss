@@ -16,22 +16,22 @@ h1 {
 	font-weight: normal;
 	font-size: grid(1);
 	line-height: 1;
-	@include min-(font-size, 1, 100);
-	@include max-(font-size, 1, 32);
+	@include min-(font-size, 1, 32);
+	@include max-(font-size, 1, 100);
 }
 
 h2 {
 	font-weight: normal;
 	font-size: grid(0.75);
 	line-height: 1;
-	@include min-(font-size, 0.75, 80);
-	@include max-(font-size, 0.75, 24);
+	@include min-(font-size, 0.75, 24);
+	@include max-(font-size, 0.75, 80);
 }
 
 h3 {
 	font-weight: normal;
 	font-size: grid(0.6);
 	line-height: 1;
-	@include min-(font-size, 0.6, 64);
-	@include max-(font-size, 0.6, 18);
+	@include min-(font-size, 0.6, 18);
+	@include max-(font-size, 0.6, 64);
 }
