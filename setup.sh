@@ -1,4 +1,4 @@
-
+#!/usr/bin/env bash
 URL="https://raw.githubusercontent.com/MatiseAms/henris-setup-files/master"
 
 curl -o app.scss -l ${URL}/app.scss 
