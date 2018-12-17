@@ -5,7 +5,8 @@
   "main": "app.scss",
   "scripts": {
     "setup": "./setup.sh",
-    "init": "./setup.sh"
+    "init": "./setup.sh",
+    "postinstall": "./setup.sh"
   },
   "repository": {
     "type": "git",
