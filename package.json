@@ -4,7 +4,8 @@
   "description": "Create Henris files",
   "main": "app.scss",
   "scripts": {
-    "setup": "./setup.sh"
+    "setup": "./setup.sh",
+    "init": "./setup.sh"
   },
   "repository": {
     "type": "git",
